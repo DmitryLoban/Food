@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(205, 205, 205);
+  max-width: 1000px;
+  min-width: 800px;
+}
+
+.wrapper {
+  /* height: 120%; */
+  margin: 30px auto;
+  /* margin-left:30px; */
+  border-bottom: 2px solid rgb(93, 93, 93);
+}
+
+div {
+  display: inline-block;
+}
+
+.nav,
+.footer {
+  text-align: center;
+  margin: 20px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.photo {
+  width: 150px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.caption {
+  text-align: center;
+  font-size: 10pt;
+  margin: 10px;
+  font-weight: bold;
+}
